@@ -1,0 +1,58 @@
+﻿** start of undefined **
+
+body {
+  background-color: rgba(50,15,50,0.5);
+margin: 0, auto;
+width: 100%;
+height: 100vh;
+font-family: Tahoma 
+  
+}
+
+#title, #description {
+  margin: 1em auto;
+  text-align: center;
+  color: white;
+}
+#description {font-style: italic;
+              margin-top: 0;}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid #3b3b4f;
+  background-color: rgba(10,5,50,0.5);}
+
+#survey-form {
+  width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+  padding-bottom: 2em;
+font-family:   Tahoma;
+  font-style: bold;
+  color: white;}
+
+  label {
+  display: block;
+	margin: 0.5rem 0;
+  }
+  
+  input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+	width: 100%;
+  min-height: 2em;
+}
+
+input[type="radio"],[type= "checkbox"]  {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;}
+  
+#submit
+{background-color: green;
+border: none;}
+
+** end of undefined **
+
